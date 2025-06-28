@@ -117,5 +117,5 @@ Made with 💙 by **Vishal patel**
 
 ## 💬 Feedback or Suggestions?
 
-Feel free to open an [Issue](https://github.com/vishalpatel7777/Book-Recommandation-app/issues) or [Contact Me](mailto:patelvishal14642@gmail.com). I'm always open to ideas that make mykingsukhguesthouse better!
+Feel free to open an [Issue](https://github.com/vishalpatel7777/kingsukhguesthouse-redesign/issues) or [Contact Me](mailto:patelvishal14642@gmail.com). I'm always open to ideas that make mykingsukhguesthouse better!
 
