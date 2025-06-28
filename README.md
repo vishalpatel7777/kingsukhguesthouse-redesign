@@ -1,5 +1,9 @@
 # 🏡 Kingsukh Guest House – Static Website  
 A fully responsive, SEO-ready static website for a nature-rich guest house in Baranti, West Bengal — built with **React** and **Tailwind CSS**.
+---
+## 📸 Live Demo
+
+🔗 [mykingsukhguesthouse](https://mykingsukhguesthouse.netlify.app)
 
 ---
 
@@ -19,6 +23,10 @@ A fully responsive, SEO-ready static website for a nature-rich guest house in Ba
 | **React Hot Toast**  | User-friendly notifications               |
 | **React Scroll**     | Smooth scrolling to sections              |
 
+---
+## 🧪 Testing
+
+- ✅ Lighthouse Testing:
 ---
 
 ## 🚀 Getting Started
@@ -99,4 +107,15 @@ VITE_EMAILJS_PUBLIC_KEY=your_public_key
 > Form validates: required fields, correct email & 10-digit mobile number
 
 ---
+## 🧑‍💻 Author
+
+Made with 💙 by **Vishal patel**
+
+📧 Contact: [patelvishal14642@gmail.com](mailto:patelvishal14642@gmail.com)
+
+---
+
+## 💬 Feedback or Suggestions?
+
+Feel free to open an [Issue](https://github.com/vishalpatel7777/Book-Recommandation-app/issues) or [Contact Me](mailto:patelvishal14642@gmail.com). I'm always open to ideas that make mykingsukhguesthouse better!
 
