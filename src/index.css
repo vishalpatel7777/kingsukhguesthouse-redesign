@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-logo {
+    font-family: 'Playfair Display SC', serif;
+  }
+
+  .font-title {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-nav {
+    font-family: 'Lato', sans-serif;
+  }
+
+  .font-body {
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
