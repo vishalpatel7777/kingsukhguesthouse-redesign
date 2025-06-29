@@ -1,5 +1,5 @@
 import React from "react";
-import BgIMG from "../assets/home.jpg";
+import BgIMG from "../assets/home.webp";
 
 const Home = () => {
   return (

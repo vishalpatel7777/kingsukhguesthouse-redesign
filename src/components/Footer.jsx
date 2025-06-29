@@ -12,6 +12,7 @@ const Footer = () => {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
+          title="Kingsukh Guest House Location"
         ></iframe>
       </div>
 
@@ -71,7 +72,7 @@ const Footer = () => {
             </ul>
 
             <div className="flex justify-center sm:justify-start gap-4 mt-4 text-lg">
-              <a href="#" className="hover:text-blue-500">
+              <a href="#" className="hover:text-blue-500" aria-label="Facebook">
                 <FaFacebookF />
               </a>
               <a
@@ -79,6 +80,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-pink-500"
+                aria-label="Instagram"
               >
                 <FaInstagram />
               </a>

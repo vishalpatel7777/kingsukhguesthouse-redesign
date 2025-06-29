@@ -5,8 +5,8 @@ import emailjs from "@emailjs/browser";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
-import Flower from "../assets/contact-2.png";
-import Leaf from "../assets/contact-1.png";
+import Flower from "../assets/contact-2.webp";
+import Leaf from "../assets/contact-1.webp";
 
 const Contact = () => {
   useEffect(() => {
@@ -87,7 +87,7 @@ const Contact = () => {
           </div>
 
           <div className="hidden md:flex md:col-span-2 justify-center items-center lg:mr-20">
-            <img src={Leaf} alt="Leaf Decoration" className="h-60" />
+            <img src={Leaf} alt="Leaf Decoration" className="h-60" loading="lazy" />
           </div>
 
           <div className="md:col-span-5">
@@ -167,6 +167,7 @@ const Contact = () => {
           <img
             src={Flower}
             alt="Flower"
+            loading="lazy"
             className="absolute right-0 -bottom-20 hidden md:block h-32 "
           />
         </div>

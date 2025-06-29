@@ -1,5 +1,5 @@
-import React from "react";
-import Card from "../components/Card";
+import React , { Suspense } from "react";
+const Card = React.lazy(()=> import("../components/Card"));
 
 const Rooms = () => {
   return (
@@ -10,6 +10,7 @@ const Rooms = () => {
         </h2>
 
         <div className="flex flex-col lg:flex-row gap-10 justify-center items-center lg:items-stretch">
+         <Suspense fallback={<div>Loading...</div>}>
           <Card
             title="Cozy Haven Room"
             subtitle="Your Personal Retreat of Peace"
@@ -21,6 +22,8 @@ const Rooms = () => {
             ]}
             price="₹1,000/night – comfort redefined, without compromise."
           />
+          </Suspense>
+          <Suspense fallback={<div>Loading...</div>}>
           <Card
             title="Spacious Serenity Suite"
             subtitle="Luxury That Breaths With You"
@@ -32,6 +35,7 @@ const Rooms = () => {
             ]}
             price="₹1,500/night – upgrade your stay, upgrade your story."
           />
+          </Suspense>
         </div>
       </div>
     </section>
